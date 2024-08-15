@@ -35,7 +35,7 @@ export function AreasSection() {
     <section id="areas" className="p-9 flex flex-col mb-9 md:mb-0">
       <div>
         <img
-          src="/thay.png"
+          src="/thay.PNG"
           alt=""
           className="w-full object-cover h-64"
         />

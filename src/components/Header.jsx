@@ -9,7 +9,7 @@ export function Header() {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <img
-            src="/logo.png"
+            src="/logo.PNG"
             alt="Logo"
             height={40}
             width={40}
