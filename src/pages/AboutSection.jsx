@@ -5,7 +5,7 @@ export function AboutSection() {
           <div className="w-full md:w-1/2">
             <div className="flex justify-center md:justify-start">
               <img
-                src="./public/thay-sobre.png"
+                src="/thay-sobre.png"
                 alt="Thayanne S Marinho"
                 className="mx-auto h-auto max-h-96 w-full md:w-auto object-cover"
               />
