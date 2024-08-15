@@ -9,7 +9,7 @@ export function Header() {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <img
-            src="./src/assets/images/logo.png"
+            src="./public/logo.png"
             alt="Logo"
             height={40}
             width={40}
@@ -21,10 +21,10 @@ export function Header() {
             <Link to="areas" smooth={true} duration={500} className="cursor-pointer hover:text-zinc-500">
               Áreas
             </Link>
+            <Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-zinc-500">Contato</Link>
             <Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-zinc-500">
               Sobre
             </Link>
-            <Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-zinc-500">Contato</Link>
           </nav>
           <div className="md:hidden">
             <IconMenu2
@@ -43,10 +43,10 @@ export function Header() {
               <Link to="areas" smooth={true} duration={500} className="cursor-pointer">
                 Áreas
               </Link>
+              <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contato</Link>
               <Link to="about" smooth={true} duration={500} className="cursor-pointer">
                 Sobre
               </Link>
-              <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contato</Link>
             </div>
           </div>
         </div>
